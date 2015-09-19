@@ -5,17 +5,11 @@ var resultado;
 
 if (operator === '+') {
   resultado = a+b;
-}
-
-if (operator === '-') {
+} else if (operator === '-') {
   resultado = a-b;
-}
-
-if (operator === '/') {
+} else if (operator === '/') {
   resultado = a/b;
-}
-
-if (operator === '*') {
+} else if (operator === '*') {
   resultado = a*b;
 }
 
