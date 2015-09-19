@@ -1,5 +1,23 @@
-var a = process.argv[2];
+var a = Number(process.argv[2]);
 var operator = process.argv[3];
-var b = process.argv[4];
+var b = Number(process.argv[4]);
+var resultado;
 
-console.log(a, operator, b); //printf <3
+if (operator === '+') {
+  resultado = a+b;
+}
+
+if (operator === '-') {
+  resultado = a-b;
+}
+
+if (operator === '/') {
+  resultado = a/b;
+}
+
+if (operator === '*') {
+  resultado = a*b;
+}
+
+
+console.log(resultado); 
